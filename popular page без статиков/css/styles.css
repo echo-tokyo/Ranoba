@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu:wght@700&display=swap');
+
+input[type=text]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=text]::-ms-reveal {  display: none; width : 0; height: 0; }
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+html, body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif; 
+    color: #fff;
+}
+
+input{
+    color: #fff;
+    padding-left: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* header start */
+
+.header{
+    display: flex;
+    background-color: #857F77;
+    height: 100px;
+    align-items: center;
+}
+
+.header_items{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 162px;
+    padding-right: 162px;
+    width: 100%;
+}
+
+.header_rside{
+    display: flex;
+    gap: 100px;
+}
+
+.header_logo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+
+.header_search{
+    width: 300px;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    background-color: #B0A597;
+}
+
+.header_search::placeholder{
+    color: #fff;
+}
+
+/* header end */
+
+/* content start */
+
+.content{
+    display: flex;
+    color: black;
+    padding-left: 162px;
+    padding-right: 162px;
+    padding-bottom: 85px;
+}
+
+.content_items{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 85px;
+}
+
+.content_caption{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 20px;
+}
+
+.content_sort{
+    appearance: none;
+    width: max-content;
+    border: 1px solid #7C6F5F;
+    background-color: #FFF;
+    outline: none;
+    font-size: 30px;
+    color: #7C6F5F;
+    border-radius: 6px;
+    padding: 5px 35px 5px 15px;
+    cursor: pointer;
+    width: 20%;
+}
+
+.content_sort_wrapper{
+    position: relative;
+}
+
+.content_sort_wrapper::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 290px;
+    transform: translateY(-50%);
+    display: block;
+    pointer-events: none;
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-left-width: 9px;
+    border-right-width: 9px;
+    border-top: 16px solid  #7C6F5F;
+}
+
+.content_sort::-ms-expand{
+    display: none;
+}
+
+.content_title{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 70px;
+    color: #7C6F5F;
+}
+
+.content_subtitle{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #7C6F5F;
+}
+
+.content_books{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_book{
+    display: flex;
+    gap: 30px;
+}
+
+.content_ranobe{
+    display: flex;
+    width: 250px;
+    height: 350px;
+    background-color: #FFF0DE;
+    border-radius: 15px;
+}
+
+.content_desc{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 14px;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+
+.content_books_2ndrow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_books_3ndrow{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* content end */
+
+/* footer start */
+
+.footer{
+    display: flex;
+    background-color: #474039;
+    padding-left: 162px;
+    padding-right: 162px;
+    height: 150px;
+    align-items: center;
+}
+
+.footer_items{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer_social{
+    display: flex;
+    gap: 30px;
+}
+
+.footer_social_links{
+    display: flex;
+    gap: 30px;
+}
+
+.footer_papers{
+    display: flex;
+    gap: 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.footer_papers a{
+    color: #C9C9C9;
+}
+
+.footer_email{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #C9C9C9;
+}
+
+/* footer end */

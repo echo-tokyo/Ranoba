@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu:wght@700&display=swap');
+
+input[type=text]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=text]::-ms-reveal {  display: none; width : 0; height: 0; }
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+button { 
+    border: none; outline: none;
+    background-color: #ffffff00;
+}
+
+html, body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif; 
+    color: #fff;
+}
+
+input{
+    color: #fff;
+    padding-left: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* header start */
+
+.header{
+    display: flex;
+    background-color: #857F77;
+    height: 100px;
+    align-items: center;
+}
+
+.header_items{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 162px;
+    padding-right: 162px;
+    width: 100%;
+}
+
+.header_rside{
+    display: flex;
+    gap: 100px;
+}
+
+.header_logo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+
+.header_search{
+    width: 300px;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    background-color: #B0A597;
+}
+
+.header_search::placeholder{
+    color: #fff;
+}
+
+/* header end */
+
+/* title start */
+
+.title{
+    display: flex;
+    padding-left: 162px;
+    padding-right: 162px;
+    padding-top: 40px;
+    padding-bottom: 95px;
+    color: black;
+}
+
+.title_items{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.title_title{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 70px;
+    color: #7C6F5F;
+}
+
+.title_subtitle{
+    display: flex;
+    gap: 45px;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #7C6F5F;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.title_book{
+    display: flex;
+    width: 350px;
+    height: 450px;
+    background-color: #FFF0DE;
+    border-radius: 15px;
+}
+
+.title_actions{
+    display: flex;
+    gap: 30px;
+    padding-top: 25px;
+}
+
+.title_rside{
+    padding-top: 170px;
+}
+
+.title_descarea{
+    inline-size: auto;
+    background-color: #FFF0DE;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.title_desc{
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 50px;
+   color: #7C6F5F
+}
+
+.title_subdesc{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #7C6F5F;
+    padding-top: 20px;
+}
+
+.title_information{
+    display: flex;
+    gap: 130px;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #7C6F5F;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.title_info1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title_info2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title_method{
+    display: flex;
+    padding-top: 85px;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+}
+
+.title_listen{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.title_read{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+/* title end */
+
+/* footer start */
+
+.footer{
+    display: flex;
+    background-color: #474039;
+    padding-left: 162px;
+    padding-right: 162px;
+    height: 150px;
+    align-items: center;
+}
+
+.footer_items{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer_social{
+    display: flex;
+    gap: 30px;
+}
+
+.footer_social_links{
+    display: flex;
+    gap: 30px;
+}
+
+.footer_papers{
+    display: flex;
+    gap: 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.footer_papers a{
+    color: #C9C9C9;
+}
+
+.footer_email{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #C9C9C9;
+}
+
+/* footer end */
